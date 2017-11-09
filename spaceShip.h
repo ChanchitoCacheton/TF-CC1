@@ -9,7 +9,7 @@
 #include "spaceIdentity.h"
 
 
-
+enum DIRECTIONS {left,right};
 
 using namespace std;
 

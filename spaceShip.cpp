@@ -22,7 +22,13 @@ spaceShip::~Spaceship(){
 
 void spaceShip::mover(){
 
+	switch(DIRECTIONS){
 
+		case left : /*dx+x=x*/ break;
+		case right: break;
+
+
+	}
 
 
 
@@ -40,14 +46,14 @@ void spaceShip::imprimir(char m[][7],4,7){
 }
 
 
-int spaceShip::getX(){}
-int spaceShip::getY(){}
+int spaceShip::getX(){ return x;}
+int spaceShip::getY(){ return y;}
 
-int spaceShip::getW(){}
-int spaceShip::getH(){}
+int spaceShip::getW(){ return w;}
+int spaceShip::getH(){ return h;}
 
-void spaceShip::setW(){}
-void spaceShip::setH(){}
+void spaceShip::setW(){ this->w=w; }
+void spaceShip::setH(){ this->h=h; }
 
-void spaceShip::setX(){}
-void spaceShip::setY(){}
+void spaceShip::setX(){ posX=x;}
+void spaceShip::setY(){ posY=y;}
